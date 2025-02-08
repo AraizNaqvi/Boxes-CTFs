@@ -1,0 +1,9 @@
+# Nmap 7.94SVN scan initiated Fri Feb  7 22:39:29 2025 as: nmap -sS -p- -n -Pn --disable-arp-ping -T5 -oN nmap-scans/full-stealth-scan 10.129.229.238
+Warning: 10.129.229.238 giving up on port because retransmission cap hit (2).
+Nmap scan report for 10.129.229.238
+Host is up (0.29s latency).
+Not shown: 63905 closed tcp ports (reset), 1629 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+6379/tcp open  redis
+
+# Nmap done at Fri Feb  7 22:50:50 2025 -- 1 IP address (1 host up) scanned in 680.36 seconds

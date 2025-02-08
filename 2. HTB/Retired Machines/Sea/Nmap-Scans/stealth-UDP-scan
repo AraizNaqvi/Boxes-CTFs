@@ -1,0 +1,10 @@
+# Nmap 7.94SVN scan initiated Sun Jan 12 10:26:46 2025 as: nmap -sSU --disable-arp-ping -n -Pn --stats-every=5s -oN stealth-UDP-scan 10.10.11.28
+Nmap scan report for 10.10.11.28
+Host is up (0.34s latency).
+Not shown: 999 closed udp ports (port-unreach), 998 closed tcp ports (reset)
+PORT   STATE         SERVICE
+22/tcp open          ssh
+80/tcp open          http
+68/udp open|filtered dhcpc
+
+# Nmap done at Sun Jan 12 10:45:21 2025 -- 1 IP address (1 host up) scanned in 1115.04 seconds

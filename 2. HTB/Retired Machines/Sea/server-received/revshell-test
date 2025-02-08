@@ -1,0 +1,158 @@
+$ python3 --v
+unknown option --v
+usage: python3 [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Try `python -h' for more information.
+$ python3 --version
+Python 3.8.10
+$ python3 -c 'import pty; pty.spawn("/bin/bash")'
+www-data@sea:/var/www/sea/themes/seaRev$ ls / -lsh
+total 64K
+   0 lrwxrwxrwx   1 root root    7 Mar 14  2023 bin -> usr/bin
+4.0K drwxr-xr-x   4 root root 4.0K Aug  1 12:53 boot
+   0 drwxr-xr-x  19 root root 4.0K Jan 11 15:01 dev
+4.0K drwxr-xr-x 110 root root 4.0K Aug 14 15:27 etc
+4.0K drwxr-xr-x   4 root root 4.0K Jul 30 12:58 home
+   0 lrwxrwxrwx   1 root root    7 Mar 14  2023 lib -> usr/lib
+   0 lrwxrwxrwx   1 root root    9 Mar 14  2023 lib32 -> usr/lib32
+   0 lrwxrwxrwx   1 root root    9 Mar 14  2023 lib64 -> usr/lib64
+   0 lrwxrwxrwx   1 root root   10 Mar 14  2023 libx32 -> usr/libx32
+ 16K drwx------   2 root root  16K Feb 21  2024 lost+found
+4.0K drwxr-xr-x   2 root root 4.0K Feb 21  2024 media
+4.0K drwxr-xr-x   2 root root 4.0K Mar 14  2023 mnt
+4.0K drwxr-xr-x   3 root root 4.0K Feb 21  2024 opt
+   0 dr-xr-xr-x 287 root root    0 Jan 11 15:01 proc
+4.0K drwx------   7 root root 4.0K Jan 11 15:07 root
+   0 drwxr-xr-x  28 root root  880 Jan 11 22:38 run
+   0 lrwxrwxrwx   1 root root    8 Mar 14  2023 sbin -> usr/sbin
+4.0K drwxr-xr-x   5 root root 4.0K Feb 21  2024 snap
+4.0K drwxr-xr-x   2 root root 4.0K Mar 14  2023 srv
+   0 dr-xr-xr-x  13 root root    0 Jan 11 15:01 sys
+4.0K drwxrwxrwt   2 root root 4.0K Jan 12 00:00 tmp
+4.0K drwxr-xr-x  14 root root 4.0K Mar 14  2023 usr
+4.0K drwxr-xr-x  14 root root 4.0K Feb 21  2024 var
+www-data@sea:/var/www/sea/themes/seaRev$ ls
+cmd.php
+www-data@sea:/var/www/sea/themes/seaRev$ cd ..
+www-data@sea:/var/www/sea/themes$ ls
+bike  revshell-main  revtheme  seaRev
+www-data@sea:/var/www/sea/themes$ cd ..
+www-data@sea:/var/www/sea$ ls
+contact.php  data  index.php  messages	plugins  themes
+www-data@sea:/var/www/sea$ cd data
+www-data@sea:/var/www/sea/data$ ls -lsh
+total 40K
+ 32K -rwxr-xr-x 1 www-data www-data  29K Jan 12 07:14 cache.json
+4.0K -rwxr-xr-x 1 www-data www-data 2.9K Jan 12 07:14 database.js
+4.0K drwxr-xr-x 2 www-data www-data 4.0K Jan 12 07:52 files
+www-data@sea:/var/www/sea/data$ cat database.js
+{
+    "config": {
+        "siteTitle": "Sea",
+        "theme": "bike",
+        "defaultPage": "home",
+        "login": "loginURL",
+        "forceLogout": false,
+        "forceHttps": false,
+        "saveChangesPopup": false,
+        "password": "$2y$10$iOrk210RQSAzNCx6Vyq2X.aJ\/D.GuE4jRIikYiWrD3TM\/PjDnXm4q",
+        "lastLogins": {
+            "2025\/01\/12 07:14:42": "127.0.0.1",
+            "2025\/01\/12 05:55:54": "127.0.0.1",
+            "2025\/01\/12 05:45:54": "127.0.0.1",
+            "2025\/01\/12 05:40:54": "127.0.0.1",
+            "2025\/01\/12 05:39:53": "127.0.0.1"
+        },
+        "lastModulesSync": "2025\/01\/12",
+        "customModules": {
+            "themes": {},
+            "plugins": {}
+        },
+        "menuItems": {
+            "0": {
+                "name": "Home",
+                "slug": "home",
+                "visibility": "show",
+                "subpages": {}
+            },
+            "1": {
+                "name": "How to participate",
+                "slug": "how-to-participate",
+                "visibility": "show",
+                "subpages": {}
+            }
+        },
+        "logoutToLoginScreen": {}
+    },
+    "pages": {
+        "404": {
+            "title": "404",
+            "keywords": "404",
+            "description": "404",
+            "content": "<center><h1>404 - Page not found<\/h1><\/center>",
+            "subpages": {}
+        },
+        "home": {
+            "title": "Home",
+            "keywords": "Enter, page, keywords, for, search, engines",
+            "description": "A page description is also good for search engines.",
+            "content": "<h1>Welcome to Sea<\/h1>\n\n<p>Hello! Join us for an exciting night biking adventure! We are a new company that organizes bike competitions during the night and we offer prizes for the first three places! The most important thing is to have fun, join us now!<\/p>",
+            "subpages": {}
+        },
+        "how-to-participate": {
+            "title": "How to",
+            "keywords": "Enter, keywords, for, this page",
+            "description": "A page description is also good for search engines.",
+            "content": "<h1>How can I participate?<\/h1>\n<p>To participate, you only need to send your data as a participant through <a href=\"http:\/\/sea.htb\/contact.php\">contact<\/a>. Simply enter your name, email, age and country. In addition, you can optionally add your website related to your passion for night racing.<\/p>",
+            "subpages": {}
+        }
+    },
+    "blocks": {
+        "subside": {
+            "content": "<h2>About<\/h2>\n\n<br>\n<p>We are a company dedicated to organizing races on an international level. Our main focus is to ensure that our competitors enjoy an exciting night out on the bike while participating in our events.<\/p>"
+        },
+        "footer": {
+            "content": "©2024 Sea"
+        }
+    }
+}www-data@sea:/var/www/sea/data$ cat /etc/passwd | grep -v "false\|no login"
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-network:x:100:102:systemd Network Management,,,:/run/systemd:/usr/sbin/nologin
+systemd-resolve:x:101:103:systemd Resolver,,,:/run/systemd:/usr/sbin/nologin
+systemd-timesync:x:102:104:systemd Time Synchronization,,,:/run/systemd:/usr/sbin/nologin
+messagebus:x:103:106::/nonexistent:/usr/sbin/nologin
+syslog:x:104:110::/home/syslog:/usr/sbin/nologin
+_apt:x:105:65534::/nonexistent:/usr/sbin/nologin
+uuidd:x:107:112::/run/uuidd:/usr/sbin/nologin
+tcpdump:x:108:113::/nonexistent:/usr/sbin/nologin
+landscape:x:109:115::/var/lib/landscape:/usr/sbin/nologin
+fwupd-refresh:x:111:116:fwupd-refresh user,,,:/run/systemd:/usr/sbin/nologin
+usbmux:x:112:46:usbmux daemon,,,:/var/lib/usbmux:/usr/sbin/nologin
+sshd:x:113:65534::/run/sshd:/usr/sbin/nologin
+systemd-coredump:x:999:999:systemd Core Dumper:/:/usr/sbin/nologin
+amay:x:1000:1000:amay:/home/amay:/bin/bash
+geo:x:1001:1001::/home/geo:/bin/bash
+www-data@sea:/var/www/sea/data$ cat /etc/passwd | grep -v "false\|nologin"
+root:x:0:0:root:/root:/bin/bash
+sync:x:4:65534:sync:/bin:/bin/sync
+amay:x:1000:1000:amay:/home/amay:/bin/bash
+geo:x:1001:1001::/home/geo:/bin/bash
+www-data@sea:/var/www/sea/data$ su amay
+Password: 
+amay@sea:/var/www/sea/data$ 

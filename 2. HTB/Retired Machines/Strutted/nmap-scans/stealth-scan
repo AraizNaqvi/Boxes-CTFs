@@ -1,0 +1,11 @@
+# Nmap 7.94SVN scan initiated Mon Feb  3 22:44:20 2025 as: nmap -sS --disable-arp-ping -n -Pn -oN nmap-scans/stealth-scan -vv strutted.htb
+Nmap scan report for strutted.htb (10.10.11.59)
+Host is up, received user-set (0.48s latency).
+Scanned at 2025-02-03 22:44:20 IST for 5s
+Not shown: 998 closed tcp ports (reset)
+PORT   STATE SERVICE REASON
+22/tcp open  ssh     syn-ack ttl 63
+80/tcp open  http    syn-ack ttl 63
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Mon Feb  3 22:44:25 2025 -- 1 IP address (1 host up) scanned in 4.50 seconds

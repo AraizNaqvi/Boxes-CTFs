@@ -1,0 +1,11 @@
+# Nmap 7.94SVN scan initiated Fri Feb  7 12:14:56 2025 as: nmap -sS --disable-arp-ping -n -Pn -vv -oN nmap-scans/stealth-scan 10.129.75.47
+Increasing send delay for 10.129.75.47 from 0 to 5 due to 25 out of 81 dropped probes since last increase.
+Nmap scan report for 10.129.75.47
+Host is up, received user-set (2.4s latency).
+Scanned at 2025-02-07 12:14:56 IST for 9s
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE REASON
+23/tcp open  telnet  syn-ack ttl 63
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Fri Feb  7 12:15:05 2025 -- 1 IP address (1 host up) scanned in 8.46 seconds

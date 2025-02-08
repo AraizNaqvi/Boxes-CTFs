@@ -1,0 +1,11 @@
+# Nmap 7.94SVN scan initiated Fri Feb  7 22:40:49 2025 as: nmap -sU -vv -oN nmap-scans/udp-scan 10.129.229.238
+Increasing send delay for 10.129.229.238 from 100 to 200 due to 11 out of 12 dropped probes since last increase.
+Nmap scan report for 10.129.229.238
+Host is up, received echo-reply ttl 63 (0.34s latency).
+Scanned at 2025-02-07 22:40:49 IST for 1112s
+Not shown: 999 closed udp ports (port-unreach)
+PORT   STATE         SERVICE REASON
+68/udp open|filtered dhcpc   no-response
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Fri Feb  7 22:59:21 2025 -- 1 IP address (1 host up) scanned in 1112.15 seconds

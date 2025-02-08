@@ -1,0 +1,9 @@
+# Nmap 7.94SVN scan initiated Fri Feb  7 22:54:40 2025 as: nmap -sV -sC -p6379 -oN nmap-scans/service-script-port-6379 10.129.229.238
+Nmap scan report for 10.129.229.238
+Host is up (0.21s latency).
+
+PORT     STATE SERVICE VERSION
+6379/tcp open  redis   Redis key-value store
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Feb  7 22:54:59 2025 -- 1 IP address (1 host up) scanned in 18.57 seconds

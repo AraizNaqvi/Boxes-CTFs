@@ -1,0 +1,19 @@
+HTTP/1.1 302 Moved Temporarily
+Server: nginx/1.18.0 (Ubuntu)
+Date: Mon, 03 Feb 2025 17:17:23 GMT
+Content-Type: text/html
+Content-Length: 154
+Connection: keep-alive
+Location: http://strutted.htb/
+
+HTTP/1.1 200 
+Server: nginx/1.18.0 (Ubuntu)
+Date: Mon, 03 Feb 2025 17:17:24 GMT
+Content-Type: text/html;charset=UTF-8
+Connection: keep-alive
+Vary: Sec-Fetch-Dest,Sec-Fetch-Mode,Sec-Fetch-Site,Sec-Fetch-User
+Cross-Origin-Embedder-Policy-Report-Only: require-corp
+Cross-Origin-Opener-Policy: same-origin
+Set-Cookie: JSESSIONID=6FD2C5BE83245F2B9BFE44FAD8677B86; Path=/; HttpOnly
+Content-Language: en-US
+

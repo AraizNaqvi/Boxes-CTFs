@@ -1,0 +1,12 @@
+# Nmap 7.94SVN scan initiated Fri Feb  7 14:52:15 2025 as: nmap -sS --disable-arp-ping -n -Pn -vv -oN nmap-scans/stealth-scan 10.129.152.71
+Nmap scan report for 10.129.152.71
+Host is up, received user-set (0.22s latency).
+Scanned at 2025-02-07 14:52:15 IST for 4s
+Not shown: 997 closed tcp ports (reset)
+PORT    STATE SERVICE      REASON
+135/tcp open  msrpc        syn-ack ttl 127
+139/tcp open  netbios-ssn  syn-ack ttl 127
+445/tcp open  microsoft-ds syn-ack ttl 127
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Fri Feb  7 14:52:19 2025 -- 1 IP address (1 host up) scanned in 3.36 seconds

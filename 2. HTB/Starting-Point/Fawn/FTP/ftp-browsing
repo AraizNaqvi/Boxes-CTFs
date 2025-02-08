@@ -1,0 +1,25 @@
+Name (10.129.27.31:alice): ftp> -rw-r--r--    1 0        0              32 Jun 04  2021 flag.txt
+ftp> Commands may be abbreviated.  Commands are:
+
+!		epsv6		mget		preserve	sendport
+$		exit		mkdir		progress	set
+account		features	mls		prompt		site
+append		fget		mlsd		proxy		size
+ascii		form		mlst		put		sndbuf
+bell		ftp		mode		pwd		status
+binary		gate		modtime		quit		struct
+bye		get		more		quote		sunique
+case		glob		mput		rate		system
+cd		hash		mreget		rcvbuf		tenex
+cdup		help		msend		recv		throttle
+chmod		idle		newer		reget		trace
+close		image		nlist		remopts		type
+cr		lcd		nmap		rename		umask
+debug		less		ntrans		reset		unset
+delete		lpage		open		restart		usage
+dir		lpwd		page		rhelp		user
+disconnect	ls		passive		rmdir		verbose
+edit		macdef		pdir		rstatus		xferbuf
+epsv		mdelete		pls		runique		?
+epsv4		mdir		pmlsd		send
+ftp> ftp> 

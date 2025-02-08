@@ -1,0 +1,33 @@
+# Nmap 7.94SVN scan initiated Sat Feb  8 20:51:38 2025 as: nmap -sV -sC -p135,139,445,3389 -oN nmap-scans/service-script-scan 10.129.240.160
+Nmap scan report for 10.129.240.160
+Host is up (0.21s latency).
+
+PORT     STATE SERVICE       VERSION
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds?
+3389/tcp open  ms-wbt-server Microsoft Terminal Services
+|_ssl-date: 2025-02-08T15:22:25+00:00; 0s from scanner time.
+| ssl-cert: Subject: commonName=Explosion
+| Not valid before: 2025-02-07T15:18:52
+|_Not valid after:  2025-08-09T15:18:52
+| rdp-ntlm-info: 
+|   Target_Name: EXPLOSION
+|   NetBIOS_Domain_Name: EXPLOSION
+|   NetBIOS_Computer_Name: EXPLOSION
+|   DNS_Domain_Name: Explosion
+|   DNS_Computer_Name: Explosion
+|   Product_Version: 10.0.17763
+|_  System_Time: 2025-02-08T15:22:11+00:00
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-time: 
+|   date: 2025-02-08T15:22:11
+|_  start_date: N/A
+| smb2-security-mode: 
+|   3:1:1: 
+|_    Message signing enabled but not required
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Feb  8 20:52:26 2025 -- 1 IP address (1 host up) scanned in 48.28 seconds
