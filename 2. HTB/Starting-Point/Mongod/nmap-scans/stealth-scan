@@ -1,0 +1,10 @@
+# Nmap 7.94SVN scan initiated Mon Feb 10 00:13:00 2025 as: nmap -sS --disable-arp-ping -Pn -n -vv -oN nmap-scans/stealth-scan 10.129.204.60
+Nmap scan report for 10.129.204.60
+Host is up, received user-set (0.62s latency).
+Scanned at 2025-02-10 00:13:00 IST for 4s
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE REASON
+22/tcp open  ssh     syn-ack ttl 63
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Mon Feb 10 00:13:05 2025 -- 1 IP address (1 host up) scanned in 4.62 seconds

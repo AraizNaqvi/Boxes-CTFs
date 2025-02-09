@@ -1,0 +1,8 @@
+# Nmap 7.94SVN scan initiated Sun Feb  9 23:44:27 2025 as: nmap -sS --disable-arp-ping -n -Pn -oN nmap-scan/stealth-scan 10.129.99.83
+Nmap scan report for 10.129.99.83
+Host is up (5.4s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE
+80/tcp open  http
+
+# Nmap done at Sun Feb  9 23:44:43 2025 -- 1 IP address (1 host up) scanned in 16.04 seconds

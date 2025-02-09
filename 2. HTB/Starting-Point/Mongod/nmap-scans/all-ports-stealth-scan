@@ -1,0 +1,10 @@
+# Nmap 7.94SVN scan initiated Mon Feb 10 00:15:57 2025 as: nmap -sS -p- --disable-arp-ping -n -Pn -T5 -vv -oN nmap-scans/all-ports-stealth-scan 10.129.204.60
+Increasing send delay for 10.129.204.60 from 0 to 5 due to 40 out of 99 dropped probes since last increase.
+Warning: 10.129.204.60 giving up on port because retransmission cap hit (2).
+adjust_timeouts2: packet supposedly had rtt of 16676606 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 16676606 microseconds.  Ignoring time.
+Nmap scan report for 10.129.204.60
+Host is up, received user-set (0.39s latency).
+Skipping host 10.129.204.60 due to host timeout
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Mon Feb 10 00:30:57 2025 -- 1 IP address (1 host up) scanned in 900.16 seconds
